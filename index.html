@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trail Maps - Off-Road Trail Maps for GPS</title>
+    <meta name="description" content="Download high-quality GPX trail maps for off-road parks. Compatible with Gaia GPS, Polaris Ride Command, and other GPS apps.">
+    <link rel="icon" type="image/png" href="trail-maps/favicon-32x32.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            width: 200px;
+            margin-bottom: 2rem;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            opacity: 0.95;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 3rem;
+            background-color: white;
+            color: #4caf50;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            background-color: #f0f0f0;
+        }
+
+        .features {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            color: #4caf50;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .feature-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .trail-preview {
+            background: #2c3e50;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .trail-preview h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .trail-preview p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .trail-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+
+        .trail-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .trail-image:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #1a252f;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .trail-preview h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="trail-maps/My Trail Maps Logob9d8.png" alt="My Trail Maps Logo" class="logo">
+        <h1>My Trail Maps</h1>
+        <p>High-quality GPX trail maps for off-road adventures. Compatible with Gaia GPS, Polaris Ride Command, and other GPS navigation apps.</p>
+        <a href="maps.html" class="cta-button">Browse Trail Maps</a>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <div class="feature-icon">📍</div>
+            <h3>GPS Compatible</h3>
+            <p>All our maps are available in GPX format, compatible with popular GPS apps like Gaia GPS and Polaris Ride Command.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🗺️</div>
+            <h3>Detailed Trail Maps</h3>
+            <p>Comprehensive trail maps showing routes, difficulty levels, points of interest, and essential navigation information.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🏞️</div>
+            <h3>Popular Parks</h3>
+            <p>Maps for top off-road parks including Windrock, Royal Blue, Hatfield McCoy Trails, Brimstone, and many more.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🚙</div>
+            <h3>All Vehicle Types</h3>
+            <p>Trail maps suitable for ATVs, UTVs, 4x4s, dirt bikes, and all off-road vehicle adventures.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Mobile Ready</h3>
+            <p>Download maps to your mobile device and navigate trails even without cell service.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">⭐</div>
+            <h3>High Quality</h3>
+            <p>Professionally created and regularly updated trail maps to ensure accuracy and reliability.</p>
+        </div>
+    </div>
+
+    <div class="trail-preview">
+        <h2>Featured Trail Systems</h2>
+        <p>Preview some of our most popular off-road trail maps</p>
+        <div class="trail-images">
+            <img src="trail-maps/Windrock Park1b9d8.png" alt="Windrock Park" class="trail-image">
+            <img src="trail-maps/Royal Blueb9d8.png" alt="Royal Blue" class="trail-image">
+            <img src="trail-maps/Hatfield McCoy Trails - Warriorb9d8.png" alt="Hatfield McCoy" class="trail-image">
+            <img src="trail-maps/Brimestone 2023b9d8.png" alt="Brimstone" class="trail-image">
+            <img src="trail-maps/Hollerwoodb9d8.png" alt="Hollerwood" class="trail-image">
+            <img src="trail-maps/Wildcatb9d8.png" alt="Wildcat" class="trail-image">
+        </div>
+        <a href="maps.html" class="cta-button" style="margin-top: 2rem;">View All Trail Maps</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Trail Maps. All rights reserved.</p>
+        <p>Your trusted source for off-road trail maps and GPS navigation</p>
+    </footer>
+</body>
+</html>
