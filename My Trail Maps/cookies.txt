@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-mytrailmaps.net	TRUE	/	FALSE	1999999999	PHPSESSID	uhm5p2trkvm4std1e009pg45bs
-www.mytrailmaps.net	TRUE	/	FALSE	1999999999	SameSite	Lax
-
